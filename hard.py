@@ -34,11 +34,12 @@ def is_unlocked(courses_list, target_course):
     """
     
     # TODO: COMPLETE THIS FUNCTION!!!
-    
+    uoc = len(courses_list) * 6
+    print(CONDITIONS[target_course])
     return True
 
 
-
+is_unlocked(["MATH1081", "COMP1511"], "COMP1521")
 
 
     
